@@ -9,16 +9,15 @@
 
 - **Getting Started**
 
-  - [Import Figma Files](getting-started/import-figma-files.md)
-  - [Import/Export Your Tracking Schema](getting-started/import-tracking-schema.md)
-  - [Events, Event Properties and User Properties](getting-started/link-events-to-design.md)
-  - [Link and Unlink Events](getting-started/create-properties.md)
-  - [Event Status]()
-  - [Sync Figma Files]()
-  - [Analytics QA]()
-  - [Other]()
+  - [Import & Sync Figma Files](getting-started/import-figma-files.md)
+  - [Import & Export Your Tracking Schema](getting-started/import-tracking-schema.md)
+  - [Events: Create, Link & Unlink Events](getting-started/create-and-link-events.md)
+  - [Event Properties & User Properties](getting-started/event-properties.md)
+  - [Page & Screen View Events]()
+  - [Analytics QA](getting-started/qa-analytics.md)
+  - [Other](getting-started/other-actions.md)
 
-- **External Connectors**
+- **External Tools**
 
   - [BigQuery Connector](external-connectors/bigquery-connector.md)
   - [Redshift Connector](external-connectors/redshift-connector.md)

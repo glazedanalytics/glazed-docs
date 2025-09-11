@@ -36,7 +36,7 @@ The single, canonical definition of an event in your tracking schema (a class)
 
 ### Element-Level
 
-Specific instances where this event is triggered
+Specific instances where this event is triggered with contextual variations.
 
 - Each UI element uses the same event definition (same event name and properties)
 - Property values differ based on context (e.g. different `login_method` values)
