@@ -65,6 +65,15 @@
   height: auto;
 }
 
+/* Sidebar toggle styling */
+.sidebar-toggle-button span {
+  background: var(--glazed-primary) !important;
+}
+
+.sidebar-toggle:hover .sidebar-toggle-button span {
+  background: var(--glazed-primary-dark) !important;
+}
+
 /* Custom header styling */
 .sidebar > h1 {
   display: flex;
