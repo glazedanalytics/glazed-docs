@@ -74,6 +74,26 @@
   background: var(--glazed-primary-dark) !important;
 }
 
+/* Make headings bold - use bold keyword and multiple approaches */
+h1, h2, h3, h4, h5, h6,
+article h1, article h2, article h3, article h4, article h5, article h6,
+.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6,
+section.content h1, section.content h2, section.content h3, section.content h4, section.content h5, section.content h6,
+main h1, main h2, main h3, main h4, main h5, main h6,
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6,
+#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
+  font-weight: bold !important;
+  font-weight: 700 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Alternative approach: use text-shadow to simulate bold if font-weight fails */
+h1, h2, h3, h4, h5, h6,
+.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6 {
+  text-shadow: 0.5px 0 0 currentColor, -0.5px 0 0 currentColor, 0 0.5px 0 currentColor, 0 -0.5px 0 currentColor !important;
+}
+
 /* Custom header styling */
 .sidebar > h1 {
   display: flex;
