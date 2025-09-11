@@ -1,0 +1,24 @@
+<!-- docs/_sidebar.md -->
+
+- [Home](/)
+- **Getting Started**
+  - [Quick Start](getting-started/quick-start.md)
+  - [Import Figma Files](getting-started/import-figma-files.md)
+  - [Import Tracking Schema](getting-started/import-tracking-schema.md)
+  - [Link Events to Design](getting-started/link-events-to-design.md)
+  - [Create Properties](getting-started/create-properties.md)
+- **Quick Dev Onboarding**
+  - [Understanding Glazed](quick-dev-onboarding/understanding-glazed.md)
+  - [Event vs Element Tracking](quick-dev-onboarding/event-vs-element-tracking.md)
+  - [Finding and Navigating Events](quick-dev-onboarding/finding-and-navigating-events.md)
+  - [Figma Companion Plugin](quick-dev-onboarding/figma-companion-plugin.md)
+- **Datawarehouse Connectors**
+  - [BigQuery Connector](datawarehouse-connectors/bigquery-connector.md)
+  - [Redshift Connector](datawarehouse-connectors/redshift-connector.md)
+  - [Snowflake Connector](datawarehouse-connectors/snowflake-connector.md)
+- **Import / Export Events**
+  - [Import Mixpanel Schema](import-export-events/import-mixpanel-schema.md)
+  - [Import Amplitude Schema](import-export-events/import-amplitude-schema.md)
+  - [Custom Glazed Schema](import-export-events/custom-glazed-schema.md)
+- **Figma Plugin**
+  - [Plugin Overview](figma-plugin/README.md)

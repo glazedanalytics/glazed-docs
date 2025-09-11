@@ -1,0 +1,181 @@
+/* Glazed Analytics Custom Theme */
+:root {
+  --glazed-primary: #e943a3;
+  --glazed-primary-light: #f06bb8;
+  --glazed-primary-dark: #d63a93;
+  --glazed-accent: #f8bbd9;
+}
+
+/* Override docsify default green with Glazed pink/purple */
+.app-name-link,
+.sidebar-nav a:hover,
+.sidebar-nav li.active > a {
+  color: var(--glazed-primary) !important;
+}
+
+/* Active sidebar link */
+.sidebar-nav li.active > a {
+  border-right: 2px solid var(--glazed-primary);
+}
+
+/* Links in content */
+.markdown-section a {
+  color: var(--glazed-primary);
+  font-weight: normal;
+}
+
+.markdown-section a:hover {
+  color: var(--glazed-primary-dark);
+}
+
+/* Code blocks and inline code accent */
+.markdown-section code,
+.markdown-section pre {
+  background: #f8f8f8;
+}
+
+/* Buttons and interactive elements */
+.docsify-copy-code-button {
+  background: var(--glazed-primary) !important;
+}
+
+.docsify-copy-code-button:hover {
+  background: var(--glazed-primary-dark) !important;
+}
+
+/* Search highlight */
+.search .matching-post {
+  border-bottom: 1px solid var(--glazed-accent);
+}
+
+.search .matching-post a {
+  color: var(--glazed-primary);
+}
+
+/* Logo styling */
+.app-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.app-logo {
+  width: 50px;
+  height: auto;
+}
+
+/* Custom header styling */
+.sidebar > h1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-left: 25px; /* Align with sidebar navigation */
+}
+
+.sidebar > h1 img {
+  width: 50px;
+  height: auto;
+}
+
+/* Blockquote styling to match brand */
+.markdown-section blockquote {
+  border-left: 4px solid var(--glazed-primary);
+  background: rgba(233, 67, 163, 0.05);
+  font-weight: normal !important;
+  color: #333 !important;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 6px;
+}
+
+.markdown-section blockquote p {
+  font-weight: normal !important;
+  color: #333 !important;
+}
+
+/* Table styling */
+.markdown-section table th {
+  background: var(--glazed-accent);
+}
+
+/* Progress indicator if using pagination */
+.docsify-pagination-container .pagination-item a {
+  color: var(--glazed-primary);
+}
+
+.docsify-pagination-container .pagination-item a:hover {
+  color: var(--glazed-primary-dark);
+}
+
+/* Video container styling for better integration */
+.video-container {
+  margin: 1.5rem 0;
+  border: 1px solid var(--glazed-accent);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(233, 67, 163, 0.1);
+}
+
+/* Make images smaller for better readability */
+.markdown-section img {
+  max-width: 80%;
+  height: auto;
+}
+
+/* Constrain content width for better readability */
+.markdown-section {
+  max-width: 800px !important;
+  margin: 0;
+  padding: 0 2rem 3rem 2rem;
+}
+
+/* Simple COMMENT alert styling - clean box with pink background */
+.alert.callout.glazed-comment,
+.alert.flat.glazed-comment {
+  background-color: rgba(233, 67, 163, 0.1) !important;
+  border: none !important;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 16px 0;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.alert.callout.glazed-comment .alert-title,
+.alert.flat.glazed-comment .alert-title {
+  display: none !important;
+}
+
+.alert.callout.glazed-comment .alert-icon,
+.alert.flat.glazed-comment .alert-icon {
+  display: none !important;
+}
+
+.alert.callout.glazed-comment .alert-body,
+.alert.flat.glazed-comment .alert-body {
+  margin: 0 !important;
+  padding: 0 !important;
+  flex: 1 !important;
+}
+
+.alert.callout.glazed-comment .alert-header,
+.alert.flat.glazed-comment .alert-header {
+  display: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.alert.callout.glazed-comment p,
+.alert.flat.glazed-comment p {
+  margin: 0 !important;
+}
+
+.alert.callout.glazed-comment > *:first-child,
+.alert.flat.glazed-comment > *:first-child {
+  margin-top: 0 !important;
+}
