@@ -7,7 +7,7 @@ Connect your existing analytics events to Glazed by importing your tracking sche
 > - **Access to your analytics project** (Mixpanel, Amplitude, or similar)
 > - Your existing event tracking schema or event definitions
 
-## Download Schema
+## Import Schema
 
 ### From Mixpanel
 
@@ -36,12 +36,27 @@ If you have a tracking schema in a Google Spreadsheet or similar, you can simply
 > [!TIP]
 > You can import a single column `event_name` using the Glazed schema to get started and update it later via another import.
 
-## Upload to Glazed
+### Upload Schema into Glazed
 
 1. In your Glazed project or file, click on "Import Schema"
 2. Choose your csv file
 3. Confirm the import
    ![Glazed Existing Event](../quick-start/images/quickstart-import-events.png)
+
+## Export Schema
+
+You can export your events via the Table View in two different formats:
+
+### Format
+
+- **CSV:** It includes only the event-level information (i.e. does not include custom values).
+- **JSON:** It includes all element-level information (i.e. includes custom values for every element assigned to an event)
+  > Unsure what the difference between **event-level** and **element-level** is? Check out out [Key Concepts](/quick-start/key-concpets.md) page.
+
+### Granularity
+
+- **Project-level schema:** Includes all events across all files in the project. Entry point via _Project > Table View_
+- **File-level schema:** Includes only linked events in the given file. Entry point via _Project > File > Table View_
 
 <!-- ## Video Tutorial
 
