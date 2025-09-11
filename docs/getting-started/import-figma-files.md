@@ -66,4 +66,4 @@ For websites that need to be tracked, you can use the [html.to.design Figma plug
 
 ### Next Steps
 
-Once your Figma file is imported, you can proceed to [Import Tracking Schema]() to connect your analytics events.
+Once your Figma file is imported, you can proceed to [Import Tracking Schema](getting-started/import-tracking-schema) to connect your analytics events.

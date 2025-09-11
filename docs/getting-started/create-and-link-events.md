@@ -123,4 +123,4 @@ To completely remove an event from your project:
 
 ### Next Steps
 
-After linking events to your design, proceed to [Create Event Properties and User Properties]() to define the data structure for your tracking implementation.
+After linking events to your design, proceed to [Create Event Properties and User Properties](getting-stated/create-and-link-events) to define the data structure for your tracking implementation.

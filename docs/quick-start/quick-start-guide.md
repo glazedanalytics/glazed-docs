@@ -142,3 +142,7 @@ b. Hide unwanted screens in Glazed (click on the `eye` icon to hide a screen)
 - **Check the detailed guides** in this documentation for specific topics
 
 Ready to dive deeper? Continue with our comprehensive [Getting Started guides](import-figma-files.md) or jump into the [Quick Dev Onboarding](../quick-dev-onboarding/) for implementation details.
+
+### Next Steps
+
+Checkout our [Key Concepts](quick-start/key-concepts) page for a better experience using Glazed.

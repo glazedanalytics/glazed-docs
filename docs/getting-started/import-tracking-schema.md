@@ -51,7 +51,7 @@ You can export your events via the Table View in two different formats:
 
 - **CSV:** It includes only the event-level information (i.e. does not include custom values).
 - **JSON:** It includes all element-level information (i.e. includes custom values for every element assigned to an event)
-  > Unsure what the difference between **event-level** and **element-level** is? Check out out [Key Concepts](/quick-start/key-concpets.md) page.
+  > Unsure what the difference between **event-level** and **element-level** is? Check out out [Key Concepts](../quick-start/key-concepts.md) page.
 
 ### Granularity
 
@@ -66,4 +66,4 @@ You can export your events via the Table View in two different formats:
 
 ### Next Steps
 
-With your schema imported, you can now [Link Events to Design Elements](create-and-link-events.md) to start mapping your tracking implementation.
+With your schema imported, you can now [Link Events to Design Elements](getting-started/create-and-link-events) to start mapping your tracking implementation.
