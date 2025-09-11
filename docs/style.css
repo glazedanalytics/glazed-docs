@@ -43,13 +43,71 @@
   background: var(--glazed-primary-dark) !important;
 }
 
-/* Search highlight */
+/* Search results styling */
+.search .results-panel {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 .search .matching-post {
   border-bottom: 1px solid var(--glazed-accent);
+  padding: 12px 16px;
+}
+
+.search .matching-post:hover {
+  background-color: rgba(233, 67, 163, 0.05);
 }
 
 .search .matching-post a {
-  color: var(--glazed-primary);
+  color: #333 !important;
+  text-decoration: none;
+  display: block;
+}
+
+.search .matching-post a:hover {
+  color: #333 !important;
+}
+
+/* Style the search result title */
+.search .matching-post h2,
+.search .matching-post a h2,
+.search .matching-post .section-link {
+  color: #333 !important;
+  font-size: 1.1em;
+  margin: 0 0 4px 0;
+  font-weight: 200 !important;
+}
+
+/* Style the search result content/excerpt */
+.search .matching-post p {
+  color: #666 !important;
+  margin: 0;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+/* Highlight matched keywords in pink */
+.search .matching-post mark,
+.search .matching-post em {
+  background: var(--glazed-primary) !important;
+  color: white !important;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-style: normal;
+}
+
+/* Style the search input field */
+.search input[type="search"] {
+  border: 1px solid #ddd !important;
+  border-radius: 6px;
+  outline: none;
+}
+
+.search input[type="search"]:focus {
+  border-color: var(--glazed-primary) !important;
+  box-shadow: 0 0 0 2px rgba(233, 67, 163, 0.2) !important;
 }
 
 /* Logo styling */
