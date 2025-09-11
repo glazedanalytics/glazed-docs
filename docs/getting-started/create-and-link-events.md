@@ -2,22 +2,21 @@
 
 Connect your imported events to specific design elements and components in your Figma files to create a visual tracking plan.
 
-## Prerequisites
-
-Before linking events, ensure you have:
-
-- **Figma file imported** into your Glazed project
-- **Tracking schema imported** (optional - you can create events on the fly)
+> **Prerequisites**
+> Before linking events, ensure you have:
+>
+> - **Figma file imported** into your Glazed project
+> - **Tracking schema imported** (optional - you can create events on the fly)
 
 ## Linking Events to Design Components
 
-### 1. Select Design Element
+### 1. Select a Design Element
 
 1. Open an imported Figma file in Glazed
 2. Click on any design element you want to link to an event (button, card, text link, etc.)
 3. Glazed will highlight selectable element in purple
 
-### 2. Link with Event
+### 2. Link with an Event
 
 There are three different ways to link events to design components:
 
@@ -69,7 +68,7 @@ For simplicity, the left navigation bar displays only one status state per event
 > Click on the `x7` on the right of an event to expand all it's children elements and see the individual status.
 > ![Expand Child Events](images/expand-children-events.png)
 
-## Filtering Events
+## Filter Events in Canvas
 
 ### Filter Events in Canvas by Status
 
@@ -93,7 +92,7 @@ You can display all events in the canvas via the _profile > Show events in canva
 
 ![Expand Child Events](images/events-display-canvas.png)
 
-## Unlinking Events
+## Unlink Events
 
 To unlink an event from a design element:
 
@@ -102,7 +101,7 @@ To unlink an event from a design element:
 3. Confirm the removal
    ![Unlink Events](images/events-unlink.png)
 
-## Deleting Events
+## Delete Events
 
 To completely remove an event from your project:
 
@@ -122,6 +121,6 @@ To completely remove an event from your project:
   <iframe src="https://www.youtube.com/embed/rNZR3MsLF2Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div> -->
 
-## Next Steps
+### Next Steps
 
 After linking events to your design, proceed to [Create Event Properties and User Properties]() to define the data structure for your tracking implementation.

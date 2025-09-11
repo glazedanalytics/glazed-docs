@@ -1,100 +1,54 @@
-# Import Tracking Schema into Glazed
+# Import and Export Your Tracking Schemas
 
 Connect your existing analytics events to Glazed by importing your tracking schema from platforms like Mixpanel or Amplitude.
 
-## Video Tutorial
+> **Prerequisites**
+>
+> - **Access to your analytics project** (Mixpanel, Amplitude, or similar)
+> - Your existing event tracking schema or event definitions
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
-  <iframe src="https://www.youtube.com/embed/UG74Urf3Seg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-</div>
+## Download Schema
 
-## Prerequisites
+### From Mixpanel
 
-- **Access to your analytics project** (Mixpanel, Amplitude, or similar)
-- Your existing event tracking schema or event definitions
+> See [Export Mixpanel Schema](../external-connectors/mixpanel-schema.md) for more detailed documentation.
 
-## Import from Analytics Platforms
-
-### 1. Download Your Schema
-
-#### From Mixpanel:
 1. Navigate to your Mixpanel project
 2. Go to Data Management > Events
 3. Export your event schema/definitions
 
-#### From Amplitude:
+### From Amplitude
+
+> See [Export Amplitude Schema](../external-connectors/amplitude-schema.md) for more detailed documentation.
+
 1. Access your Amplitude project
 2. Go to Data > Events
 3. Download your event schema
 
-#### Other Platforms:
-Most analytics platforms provide export functionality for event schemas. Look for:
-- Event definitions
-- Event properties
-- Event taxonomy exports
+### Custom Schema / Glazed Schema
 
-### 2. Upload to Glazed
+If you have a tracking schema in a Google Spreadsheet or similar, you can simply rename the columns to match our [Glazed Schema](https://docs.google.com/spreadsheets/d/1953wD00tGMWIuJkCpWb1vN8EbzBtXeBPRJyZjdvkT4Q/edit?usp=sharing) and import it.
 
-1. In your Glazed project, navigate to "Import Schema"
-2. Select "Upload from Analytics Platform"
-3. Choose your downloaded schema file
-4. Review and confirm the import
+1. **Rename columns** to match the expected column names from our [Template](https://docs.google.com/spreadsheets/d/1953wD00tGMWIuJkCpWb1vN8EbzBtXeBPRJyZjdvkT4Q/edit?usp=sharing)
+2. Download schema as **.csv**
+3. In Glazed: **Upload Tracking** > Select **Glazed** > Import your CSV
 
-## Alternative: Glazed Template Spreadsheet
+> [!TIP]
+> You can import a single column `event_name` using the Glazed schema to get started and update it later via another import.
 
-If you don't have an existing schema or want to start fresh:
+## Upload to Glazed
 
-### 1. Download Template
+1. In your Glazed project or file, click on "Import Schema"
+2. Choose your csv file
+3. Confirm the import
+   ![Glazed Existing Event](../quick-start/images/quickstart-import-events.png)
 
-1. In Glazed, select "Use Template Spreadsheet"
-2. Download the Glazed event template
-3. The template includes standard e-commerce and SaaS events
+<!-- ## Video Tutorial
 
-### 2. Customize Your Events
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
+  <iframe src="https://www.youtube.com/embed/UG74Urf3Seg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div> -->
 
-1. Open the spreadsheet template
-2. Add your specific events and properties
-3. Follow the template format for consistency
-4. Save your customized spreadsheet
+### Next Steps
 
-### 3. Upload to Glazed
-
-1. Return to Glazed
-2. Upload your customized spreadsheet
-3. Review the imported events
-
-## Schema Structure
-
-Your imported schema should include:
-
-- **Event Names**: Clear, descriptive event identifiers
-- **Event Properties**: Parameters specific to each event
-- **User Properties**: Attributes that describe your users
-- **Event Descriptions**: Context for when events should fire
-
-## Best Practices
-
-### Event Naming
-
-- Use consistent naming conventions
-- Be descriptive but concise
-- Group related events with prefixes (e.g., `signup_`, `purchase_`)
-
-### Property Definition
-
-- Define clear data types for each property
-- Include example values
-- Document required vs. optional properties
-
-## Validation
-
-After importing, Glazed will:
-
-- Validate your schema format
-- Check for naming conflicts
-- Highlight any missing required fields
-- Suggest improvements for consistency
-
-## Next Steps
-
-With your schema imported, you can now [Link Events to Design Elements](link-events-to-design.md) to start mapping your tracking implementation.
+With your schema imported, you can now [Link Events to Design Elements](create-and-link-events.md) to start mapping your tracking implementation.
