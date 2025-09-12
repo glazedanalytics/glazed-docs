@@ -27,5 +27,5 @@ Glazed bridges the gap between design and analytics by letting you:
 ## Get Help
 
 - **Join our [Slack community](https://join.slack.com/t/glazedanalytics/shared_invite/zt-27kt7tl3n-lkfs1mzqCzyVSKdkiQx2sA)** for quick questions
-- **Email [hello@glazedanalytics.com](mailto:hello@glazedanalytics.com)** for technical support
+- **Email hello@glazedanalytics.com** for technical support
 - **Browse the guides** in this documentation for detailed topics
