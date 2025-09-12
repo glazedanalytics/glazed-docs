@@ -19,9 +19,7 @@
 
 - **External Tools**
 
-  - [BigQuery Connector](external-connectors/bigquery-connector.md)
-  - [Redshift Connector](external-connectors/redshift-connector.md)
-  - [Snowflake Connector](external-connectors/snowflake-connector.md)
+  - [Data Warehouse Connectors](external-connectors/dwh-connector.md)
   - [Import Mixpanel Schema](external-connectors/mixpanel-schema.md)
   - [Import Amplitude Schema](external-connectors/amplitude-schema.md)
 
