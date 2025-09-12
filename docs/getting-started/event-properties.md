@@ -96,6 +96,14 @@ When linking events to design elements:
 2. Configure element-specific property values via the property modal
 3. Override defaults where necessary
 
+### Hide Properties Across Elements
+
+You can hide properties form specific elements (i.e. instances of an event) by clicking the 'eye' icon. This will only affect the selected property.
+![Glazed Existing Event](images/hide-properties.png)
+
+> [!TIP]
+> Hidden properties will not be displayed in the pseudocode for improved communication in developer handoff.
+
 ## Best Practices
 
 ### Naming Conventions
