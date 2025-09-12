@@ -25,7 +25,7 @@ There are three different ways to link events to design components:
 This event must exist in your project, by either having previously been imported via csv or has been created in the same or another file in the same project.
 
 1. Select a design element
-2. Start typing ane existing event and click it OR drag&drop it from the left navbar.
+2. Start typing an existing event and click it OR drag&drop it from the left navbar.
 
 > [!TIP]
 > You can use the 'Find similar elements" to automatically search for similar looking design components.
@@ -123,4 +123,4 @@ To completely remove an event from your project:
 
 ### Next Steps
 
-After linking events to your design, proceed to [Create Event Properties and User Properties](getting-stated/create-and-link-events) to define the data structure for your tracking implementation.
+After linking events to your design, proceed to [Create Event Properties and User Properties](getting-started/event-properties.md) to define the data structure for your tracking implementation.

@@ -69,7 +69,7 @@ If you have a tracking schema in a Google Spreadsheet or similar, you can simply
 This is where the magic happens by connecting your tracking documentation to your Figma designs:
 
 1. **Navigate to your imported Figma file** in Glazed
-2. **Click an interactive elements** like buttons, forms, and links
+2. **Click on interactive elements** like buttons, forms, and links
 3. **Assign events** to each element:  
    a. **Use existing events** from your import, or  
    b. **Create new events** from scratch, or  
@@ -107,7 +107,7 @@ Once you have some events linked to design components in Glazed, anyone can acce
 - **Create event tags** for better organization
 - **Share the Figma token** with your dev team for tracking instrumentation
 - **Sync your Figma files** to stay in sync the design changes
-- **Automate you QA** by connecting to Bigquery, Redshift or Snowflake
+- **Automate your QA** by connecting to Bigquery, Redshift or Snowflake
 
 ## Common Issues
 
@@ -135,14 +135,14 @@ b. Hide unwanted screens in Glazed (click on the `eye` icon to hide a screen)
 **Issue**: "AI didn't suggest events using the right taxonomy"  
 **Solution**: Try importing or manually creating 5+ events so the model can learn from your existing taxonomy
 
+## Next Steps
+
+- Check out our [Key Concepts](quick-start/key-concepts) page for a better experience using Glazed.
+- Continue with our comprehensive [Getting Started guides](../getting-started/import-figma-files.md).
+- Review our [Cheat Sheets](quick-start/cheat-sheets) navigate Glazed like a pro.
+
 ## Get Help
 
 - **Join our [Slack community](https://join.slack.com/t/glazedanalytics/shared_invite/zt-27kt7tl3n-lkfs1mzqCzyVSKdkiQx2sA)** for quick questions
 - **Email [hello@glazedanalytics.com](mailto:hello@glazedanalytics.com)** for technical support
 - **Check the detailed guides** in this documentation for specific topics
-
-Ready to dive deeper? Continue with our comprehensive [Getting Started guides](import-figma-files.md) or jump into the [Quick Dev Onboarding](../quick-dev-onboarding/) for implementation details.
-
-### Next Steps
-
-Checkout our [Key Concepts](quick-start/key-concepts) page for a better experience using Glazed.

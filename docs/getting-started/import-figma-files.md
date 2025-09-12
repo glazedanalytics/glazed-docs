@@ -43,10 +43,10 @@ In the case of a design component that was linked to an event goes missing after
 Check out our [Figma Best Practices](https://www.figma.com/design/UlDIqelNaa5eBrB3zPEaQo/Food-App-Demo--Public-?node-id=2320-21&t=vPoGHMgyAkduqFpq-1) for more insights on how to best work with Figma and Glazed.
 
 - **Large files**: Files with 300+ screens may reduce performance
-- **Loptimize images** in Figma to speed up import process
+- **Optimize images** in Figma to speed up import process
 - Consider breaking large files into smaller, focused imports
   > [!TIP]
-  > Some teams create a dedicated **Tracking page** in Figma where only screens needeed for tracking are added. This helps avoid unwanted changes and improves performance.
+  > Some teams create a dedicated **Tracking page** in Figma where only screens needed for tracking are added. This helps avoid unwanted changes and improves performance.
 
 ### Alternative Import Method
 

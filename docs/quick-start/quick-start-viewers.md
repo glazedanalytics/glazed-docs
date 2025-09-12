@@ -36,8 +36,9 @@ Sometime a table is exactly what you need. Here is our Table View Cheat Sheet fo
 1. Open the plugin in Figma via the plugins menu and searching for “Tracking Plan Companion”
 2. Copy the Figma Token from your Glazed Project > Figma plugin token
 
-Learn more about our [Figma Plugin](https://www.figma.com/community/plugin/1349786461796635832)
+Learn more about our [Figma Plugin](figma-plugin/)
 
 ### Next Steps
 
-Checkout our [Key Concepts](quick-start/key-concepts) page for a better experience using Glazed.
+- Checkout our [Key Concepts](quick-start/key-concepts) page for a better experience using Glazed.
+- Review our [Cheat Sheets](quick-start/cheat-sheets) to navigate Glazed like a pro.

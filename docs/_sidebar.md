@@ -15,7 +15,7 @@
   - [Event Properties & User Properties](getting-started/event-properties.md)
   - [Screen View & Page View Events](getting-started/screen-and-page-events.md)
   - [Analytics QA](getting-started/qa-analytics.md)
-  - [Other](getting-started/other-actions.md)
+  <!-- - [Other](getting-started/other-actions.md) -->
 
 - **Figma Plugin**
   - [Plugin Overview](figma-plugin/README.md)

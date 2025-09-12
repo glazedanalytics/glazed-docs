@@ -14,7 +14,7 @@ Clicking on the top ‘Login’ button will open its corresponding tracking docu
 
 ![Copy Figma page URL](images/key-concepts-project-structure.png)
 
-A **Project** contains an entire tracking plan (i.e. name space), organizeds across multiple Figma design **files**, which usually represent features or user journeys.
+A **Project** contains an entire tracking plan (i.e. name space), organized across multiple Figma design **files**, which usually represent features or user journeys.
 
 ### Project vs File Table View
 
@@ -50,7 +50,7 @@ The image on the right is on ‘Element level’, it displays a single instance 
 
 ![Copy Figma page URL](images/quickstart-event-vs-element.png)
 
-Both events use the same event definition (class), but with different property values en element level:
+Both events use the same event definition (class), but with different property values at element level:
 
 ```javascript
 // User clicks to login via email method
