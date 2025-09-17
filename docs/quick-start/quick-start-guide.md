@@ -109,17 +109,6 @@ If you're an admin, you can create new users and invite them to your Glazed work
    ![Access user management system](images/user-management-2.png)
 4. Hit enter and trigger a password reset so the new user can login
 
-## What's Next?
-
-### Expand Your Tracking
-
-- **Link more events** with your Figma designs
-- **Add custom values** to event properties
-- **Create event tags** for better organization
-- **Share the Figma token** with your dev team for tracking instrumentation
-- **Sync your Figma files** to stay in sync the design changes
-- **Automate your QA** by connecting to Bigquery, Redshift or Snowflake
-
 ## Common Issues
 
 ### Figma Import Problems
@@ -147,6 +136,17 @@ b. Hide unwanted screens in Glazed (click on the `eye` icon to hide a screen)
 **Solution**: Try importing or manually creating 5+ events so the model can learn from your existing taxonomy
 
 ## Next Steps
+
+### Expand Your Tracking
+
+- **Link more events** with your Figma designs
+- **Add custom values** to event properties
+- **Create event tags** for better organization
+- **Share the Figma token** with your dev team for tracking instrumentation
+- **Sync your Figma files** to stay in sync the design changes
+- **Automate your QA** by connecting to Bigquery, Redshift or Snowflake
+
+### Learn More
 
 - Check out our [Key Concepts](quick-start/key-concepts) page for a better experience using Glazed.
 - Continue with our comprehensive [Getting Started guides](../getting-started/import-figma-files.md).
