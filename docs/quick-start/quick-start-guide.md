@@ -98,6 +98,17 @@ Once you have some events linked to design components in Glazed, anyone can acce
    > [!TIP]
    > In Figma, you can select a specific frame to filter only the events associated with that particular frame or screen.
 
+## Add More Users to Glazed
+
+If you're an admin, you can create new users and invite them to your Glazed workspace as follows:
+
+1. Click on your user profile
+2. Select 'User management'
+   ![Access user management system](images/user-management-1.png)
+3. Click 'Create User' and add fill in the details
+   ![Access user management system](images/user-management-2.png)
+4. Hit enter and trigger a password reset so the new user can login
+
 ## What's Next?
 
 ### Expand Your Tracking
