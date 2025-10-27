@@ -2,7 +2,7 @@
 
 If you're a developer or only looking to find event names, this is the right guide for you.
 
-## Say Goodby to Spreadsheets
+## Say Goodbye to Spreadsheets
 
 Glazed replaces tracking spreadsheets with a visual-first Figma-integrated process that sits on top of your existing workflow.
 
