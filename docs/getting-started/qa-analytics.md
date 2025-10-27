@@ -1,4 +1,4 @@
-# Analytics QA
+# Data Warehouse Monitoring
 
 Our QA feature is designed to help teams monitor events and properties arriving in their data warehouse in real-time.
 

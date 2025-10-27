@@ -14,7 +14,7 @@
   - [Events: Create, Link & Unlink Events](getting-started/create-and-link-events.md)
   - [Event Properties & User Properties](getting-started/event-properties.md)
   - [Screen View & Page View Events](getting-started/screen-and-page-events.md)
-  - [Analytics QA](getting-started/qa-analytics.md)
+  - [DWH Monitoring](getting-started/qa-analytics.md)
   <!-- - [Other](getting-started/other-actions.md) -->
 
 - **Figma Plugin**
