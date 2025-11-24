@@ -21,6 +21,7 @@
   - [Plugin Overview](figma-plugin/README.md)
 - **External Tools**
 
+  - [Figma API](external-connectors/figma-api.md)
   - [Data Warehouse Connectors](external-connectors/dwh-connector.md)
   - [Import Mixpanel Schema](external-connectors/mixpanel-schema.md)
   - [Import Amplitude Schema](external-connectors/amplitude-schema.md)
