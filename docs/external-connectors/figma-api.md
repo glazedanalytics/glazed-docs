@@ -33,7 +33,15 @@ Since Glazed stores the Figma OAuth token at the project level, the rate limits 
 ### Give a Designer Access to Glazed
 
 1. Use Glazed's [user management dashboard](https://app.glazedanalytics.com/accounts/1/users) to invite a team member who has a **Dev or Full Figma license** (typically a designer)
-2. Have that user set up the Figma connection from within Glazed
+2. Have that user set up the Figma connection from within Glazed.
+
+> **How to reset Figma OAuth token:**  
+> You can manually force a new Figma authentication process by:
+>
+> 1. Trigger 'Renew Figma access' from your user profile drop-down
+> 2. Import a new file
+>
+>    ![Renew Figma Token](images/figma-reset-token.png ":size=200")
 
 This approach provides:
 
