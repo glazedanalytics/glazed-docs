@@ -14,17 +14,7 @@ The integration allows Glazed to import and sync Figma design pages from your Fi
 
 Since November 2025, Figma applies [rate limits](https://developers.figma.com/docs/rest-api/rate-limits/) to all REST API requests based on three factors:
 
-1. **Resource plan** (Starter, Professional, Organization, Enterprise)
-2. **User seat type** (Viewer/Collaborator vs Dev/Full license)
-3. **API endpoint tier** (Tier 1, 2, or 3)
-
-### Rate Limit Tiers
-
-| Tier | View/Collab Seats | Dev/Full Seats (Starter) | Dev/Full Seats (Pro) | Dev/Full Seats (Org/Enterprise) |
-| ---- | ----------------- | ------------------------ | -------------------- | ------------------------------- |
-| 1    | Up to 6/month     | 10/min                   | 15/min               | 20/min                          |
-| 2    | Up to 5/min       | 25/min                   | 50/min               | 100/min                         |
-| 3    | Up to 10/min      | 50/min                   | 100/min              | 150/min                         |
+![Renew Figma Token](images/figma-api-rates-table.png)
 
 ## Performance Recommendations
 
